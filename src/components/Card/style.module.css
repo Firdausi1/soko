@@ -14,3 +14,9 @@
 .bold_text{
     font-weight: 800;
 }
+
+.item__details > p{ 
+    font-size: .7rem;
+    margin-bottom: 0;
+}
+
