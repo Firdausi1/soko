@@ -1,0 +1,16 @@
+.group{
+    display: flex;
+    align-items: center;
+}
+.item__img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.group > *{
+    margin-right: .3rem;
+}
+
+.bold_text{
+    font-weight: 800;
+}

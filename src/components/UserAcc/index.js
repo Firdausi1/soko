@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "../Card";
 
 
 function UserAcc(){
@@ -9,7 +10,7 @@ function UserAcc(){
                 One of three columns
                 </div>
                 <div class="col-8">
-                One of three columns
+                    <Card/>
                 </div>
             </div>
         </div>
