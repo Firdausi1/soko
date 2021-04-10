@@ -4,13 +4,16 @@ import Card from "../Card";
 
 function UserAcc(){
     return <React.Fragment>
-       <div class="container">
-            <div class="row">
-                <div class="col-sm">
+       <div className="container">
+            <div className="row">
+                <div className="col-sm">
                 One of three columns
                 </div>
-                <div class="col-8">
+                <div className="col-10">
+                <div className="row">
                     <Card/>
+                    <Card/>
+                </div>   
                 </div>
             </div>
         </div>
