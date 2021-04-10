@@ -8,12 +8,13 @@
 }
 
 .item__card{
-    width: 35%;
-    height: 150%;
-    padding: 1.3rem;
+    width: 40%;
+    height: 11rem;
+    padding: 1.6rem;
     border-radius: .4rem;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc;  
 }
+
 .item__card > div{
     margin-bottom: 1rem;
 }
@@ -37,3 +38,14 @@
     margin-bottom: 0.23rem;
 }
 
+@media (max-width: 992px){
+.item__card{
+        width: 75%;
+    }
+    }
+
+@media (max-width: 768px){
+.item__card{
+        width: 100%;
+}
+}

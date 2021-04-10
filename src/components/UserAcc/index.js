@@ -8,14 +8,14 @@ function UserAcc(){
     return <React.Fragment>
        <div className={clsx("container",style.inner_space)}>
             <div className="row">
-                <div className="col-sm">
+                <div className="col px-4">
                 One of three columns
                 </div>
-                <div className="col-9">
-                <div className="row horizontal-gutter">
-                    <Card/>
-                    <Card/>
-                </div>   
+                <div className="col-sm-12 col-md-9">
+                    <div className="center gutter-xy">
+                        <Card/>
+                        <Card/>
+                    </div>   
                 </div>
             </div>
         </div>
