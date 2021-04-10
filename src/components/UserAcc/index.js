@@ -1,10 +1,12 @@
 import React from "react";
 import Card from "../Card";
 import "../../App.css"
+import style from "./style.module.css";
+import clsx from 'clsx'
 
 function UserAcc(){
     return <React.Fragment>
-       <div className="container">
+       <div className={clsx("container",style.inner_space)}>
             <div className="row">
                 <div className="col-sm">
                 One of three columns
