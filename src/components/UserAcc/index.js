@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../Card";
-
+import "../../App.css"
 
 function UserAcc(){
     return <React.Fragment>
@@ -9,8 +9,8 @@ function UserAcc(){
                 <div className="col-sm">
                 One of three columns
                 </div>
-                <div className="col-10">
-                <div className="row">
+                <div className="col-9">
+                <div className="row horizontal-gutter">
                     <Card/>
                     <Card/>
                 </div>   

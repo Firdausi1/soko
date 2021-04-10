@@ -20,3 +20,7 @@ a{
     text-decoration: none;
     color: #3e4854;
 }
+
+.horizontal-gutter > *{
+	margin-right: 1rem;
+}
