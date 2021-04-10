@@ -34,6 +34,7 @@ function App() {
 					<Route path="/productdetail/:productId" exact>
 						<ProductDetail data={data} />
 					</Route>
+					
 				</Switch>
 
 				<Footer />
