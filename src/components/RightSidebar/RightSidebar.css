@@ -1,0 +1,11 @@
+.rightSidebar{
+    width: 20%;
+    border-left: 1px solid #d0d0d0;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+.right__checkout{
+    width: 100%;
+}
+
