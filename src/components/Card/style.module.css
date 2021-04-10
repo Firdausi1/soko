@@ -1,11 +1,27 @@
 .group{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
+.sp_btw{
+    justify-content: space-between;
+}
+
+.item__card{
+    width: 50%;
+    padding: 1.3rem;
+    border-radius: .4rem;
+    border: 1px solid #ccc;
+}
+.item__card > div{
+    margin-bottom: 1rem;
+}
+
 .item__img{
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
+    cursor: pointer;
 }
 .group > *{
     margin-right: .3rem;
@@ -17,6 +33,6 @@
 
 .item__details > p{ 
     font-size: .7rem;
-    margin-bottom: 0;
+    margin-bottom: 0.23rem;
 }
 
