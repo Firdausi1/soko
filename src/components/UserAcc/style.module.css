@@ -17,5 +17,13 @@
 .gap {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.min_height {
+  min-height: 60vh;
+}
+
+.border-y {
+  border-right: 1px solid #ccc;
   min-height: 60vh;
 }
