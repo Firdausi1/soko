@@ -1,12 +1,12 @@
-import React from "react";
-import clsx from "clsx";
-import style from "./style.module.css";
+import React from "react"
+import clsx from "clsx"
+import style from "./style.module.css"
 
 function DropDown() {
-  const items = ["High to Low", "New Release"];
+  const items = ["High to Low", "New Release"]
 
   function DropDownItem({ name }) {
-    return <li className={clsx("dropdown-item", style.pointer)}>{name}</li>;
+    return <li className={clsx("dropdown-item", style.pointer)}>{name}</li>
   }
 
   return (
@@ -29,9 +29,7 @@ function DropDown() {
         ))}
       </ul>
     </div>
-  );
+  )
 }
 
-
-
-export default DropDown;
+export default DropDown
