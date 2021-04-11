@@ -1,6 +1,7 @@
 import React from "react"
 import style from "./style.module.css"
 import clsx from "clsx"
+import Status from "../Status"
 function Card({ img, name, orderID, amount, itemCount, createdAt, orderStatus }) {
   return (
     <div className={style.item__card}>
@@ -17,6 +18,8 @@ function Card({ img, name, orderID, amount, itemCount, createdAt, orderStatus })
           <p> 3 Items</p>
           <p> 25/02/2021, 01:55 PM</p>
         </div>
+
+        <Status OrderStatus={"shipped"} colorCode={"orange"} />
       </div>
     </div>
   )

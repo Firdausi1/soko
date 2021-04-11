@@ -17,7 +17,7 @@ function DropDown() {
         data-bs-toggle="dropdown"
         aria-expanded="false"
       >
-        <i class="bi bi-list"></i>
+        <i className="bi bi-list"></i>
       </button>
       <button className="btn btn-sm bold_text" type="button">
         Filters
