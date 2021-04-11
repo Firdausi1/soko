@@ -10,7 +10,10 @@ function UserAcc() {
     <div className={clsx("container border", style.gap, style.min_height)}>
       <div className="row">
         <div className={clsx("col px-4", style["border-y"])}>
-          <div className={clsx(style.inner_space)}> One of three columns</div>
+          <div className={clsx(style.inner_space)}>
+            {" "}
+            One of three columns <i class="bi bi-card-text"></i>
+          </div>
         </div>
         <div className="col-sm-12 col-md-9">
           <div className={clsx(style.group, "gutter-x", style.inner_space)}>
