@@ -3,7 +3,7 @@ import clsx from "clsx"
 import style from "./style.module.css"
 
 function DropDown() {
-  const items = ["High to Low", "New Release"]
+  const items = ["Shipped", "Delivered"]
 
   function DropDownItem({ name }) {
     return <li className={clsx("dropdown-item", style.pointer)}>{name}</li>
@@ -24,8 +24,8 @@ function DropDown() {
       </button>
 
       <ul className="dropdown-menu">
-        {items.map((item) => (
-          <DropDownItem name={item} />
+        {items.map((item, index) => (
+          <DropDownItem key={index} name={item} />
         ))}
       </ul>
     </div>
