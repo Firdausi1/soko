@@ -2,7 +2,7 @@ import React from "react"
 import style from "./style.module.css"
 import clsx from "clsx"
 import Status from "../Status"
-function Card({ img, name, orderID, amount, itemCount, createdAt, orderStatus }) {
+function Card({ img, name, orderID, amount, itemCount, createdAt, orderStatus, colorCode }) {
   return (
     <div className={style.item__card}>
       <div className={clsx(style.group, style.bold_text)}>
