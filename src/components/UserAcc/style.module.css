@@ -1,3 +1,17 @@
 .inner_space{
     padding: 1rem 0
 }
+
+.center{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+
+.group{
+    display: flex;
+    justify-content: space-between;
+}

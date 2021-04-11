@@ -20,15 +20,15 @@ a{
     text-decoration: none;
     color: #3e4854;
 }
-.center{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
 
 
-}
 
 .gutter-xy > *{
 	margin: 1rem;
+}
+
+
+
+.gutter-x > *{
+	margin: 0 1rem;
 }
