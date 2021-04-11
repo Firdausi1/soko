@@ -1,38 +1,39 @@
 .primary__button {
-	display: flex;
-	align-items: center;
-	color: rgb(39, 102, 204);
-	border: 1px solid rgb(39, 102, 204);
-	background-color: #fff;
-	height: fit-content;
+  display: flex;
+  align-items: center;
+  color: rgb(39, 102, 204);
+  border: 1px solid rgb(39, 102, 204);
+  background-color: #fff;
+  height: fit-content;
 }
 
 .secondary__button {
-	display: flex;
-	align-items: center;
-	color: #2966cc;
-	border: 1px solid #f8de4b;
-	background-color: #f8de4b;
-	height: fit-content;
+  display: flex;
+  align-items: center;
+  color: #2966cc;
+  border: 1px solid #f8de4b;
+  background-color: #f8de4b;
+  height: fit-content;
 }
 
-a{
-    text-decoration: none;
-    color: #3e4854;
+a {
+  text-decoration: none;
+  color: #3e4854;
 }
 
-
-.bold_text{
-    font-weight: 800;
-
+.bold_text {
+  font-weight: 800;
 }
 
-.gutter-xy > *{
-	margin: 1rem;
+.border {
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
 }
 
+.gutter-xy > * {
+  margin: 1rem;
+}
 
-
-.gutter-x > *{
-	margin: 0 1rem;
+.gutter-x > * {
+  margin: 0 1rem;
 }

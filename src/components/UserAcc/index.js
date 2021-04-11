@@ -7,7 +7,7 @@ import DropDown from "../DropDown"
 
 function UserAcc() {
   return (
-    <div className={clsx("container", style.inner_space)}>
+    <div className={clsx("container border", style.inner_space, style.gap)}>
       <div className="row">
         <div className="col px-4">One of three columns</div>
         <div className="col-sm-12 col-md-9">

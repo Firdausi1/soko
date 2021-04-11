@@ -1,17 +1,21 @@
-.inner_space{
-    padding: 1rem 0
+.inner_space {
+  padding: 1rem 0;
 }
 
-.center{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;
+.center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
+.group {
+  display: flex;
+  justify-content: space-between;
+}
 
-
-.group{
-    display: flex;
-    justify-content: space-between;
+.gap {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  min-height: 60vh;
 }
