@@ -1,8 +1,23 @@
-import React from 'react';
+import clsx from "clsx"
+import React from "react"
+import style from "./style.module.css"
+function SideNav() {
+  return (
+    <div className={style.background}>
+      <ul className={clsx(style.clear, style.pointer)}>
+          
+        <li className={style.group}>
+          <i className={clsx("bi bi-card-text", style.icon)}></i>
+          <span className={style.icon__text}>My Order</span>
+        </li>
 
-
-function SideNav(){
-    return <div></div>
+        <li className={style.group}>
+          <i className={clsx("bi bi-card-text", style.icon)}></i>
+          <span className={style.icon__text}>My Order</span>
+        </li>
+      </ul>
+    </div>
+  )
 }
 
 export default SideNav

@@ -4,6 +4,7 @@ import "../../App.css"
 import style from "./style.module.css"
 import clsx from "clsx"
 import DropDown from "../DropDown"
+import SideNav from "../SideNav"
 
 function UserAcc() {
   return (
@@ -11,11 +12,10 @@ function UserAcc() {
       <div className="row">
         <div className={clsx("col px-4", style["border-y"])}>
           <div className={clsx(style.inner_space)}>
-            {" "}
-            One of three columns <i class="bi bi-card-text"></i>
+            <SideNav />
           </div>
         </div>
-        <div className="col-sm-12 col-md-9">
+        <div className="col-sm-12 col-md-10">
           <div className={clsx(style.group, "gutter-x", style.inner_space)}>
             <h5 className="bold_text">Showing all orders</h5>
             <DropDown />
