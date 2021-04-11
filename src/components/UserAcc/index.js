@@ -9,8 +9,8 @@ import SideNav from "../SideNav"
 function UserAcc() {
   return (
     <div className={clsx("container border", style.gap, style.min_height)}>
-      <div className="row">
-        <div className={clsx("col px-4", style["border-y"])}>
+      <div className={clsx("row", style.my_row)}>
+        <div className={clsx("col", style["border-y"], style.px)}>
           <div className={clsx(style.inner_space)}>
             <SideNav />
           </div>

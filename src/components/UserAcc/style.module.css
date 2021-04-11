@@ -18,6 +18,9 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.my_row {
+  --bs-gutter-x: 0;
+}
 
 @media (min-width: 992px) {
   .min_height {
@@ -29,3 +32,5 @@
     min-height: 60vh;
   }
 }
+
+

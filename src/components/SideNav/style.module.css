@@ -26,6 +26,8 @@
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
+  /* add recommended styling here */
+  /* background-color: beige; */
 }
 
 .group > * {
