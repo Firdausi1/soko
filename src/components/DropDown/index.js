@@ -13,11 +13,11 @@ function DropDown() {
     <div className={clsx("btn-group", style.border, style.space)}>
       <button
         type="button"
-        className="btn btn-sm  dropdown-toggle dropdown-toggle-split"
+        className="btn btn-sm  dropdown-toggle-split"
         data-bs-toggle="dropdown"
         aria-expanded="false"
       >
-        <span className="visually-hidden">Toggle Dropdown</span>
+        <i class="bi bi-list"></i>
       </button>
       <button className="btn btn-sm bold_text" type="button">
         Filters
