@@ -15,7 +15,7 @@ function UserAcc() {
             <SideNav />
           </div>
         </div>
-        <div className="col-sm-12 col-md-10">
+        <div className="col-md-12 col-lg-10">
           <div className={clsx(style.group, "gutter-x", style.inner_space)}>
             <h5 className="bold_text">Showing all orders</h5>
             <DropDown />
