@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ProductDetail from "./components/ProductDetail/ProductDetail";
 import Bag from "./components/Bag/Bag";
+import UserAcc from "./components/UserAcc";
 
 function App() {
 	const [data, setData] = useState([]);
@@ -34,6 +35,10 @@ function App() {
 					<Route path="/productdetail/:productId" exact>
 						<ProductDetail data={data} />
 					</Route>
+					<Route path="/accounts" exact>
+						<UserAcc/>
+					</Route>
+					
 				</Switch>
 
 				<Footer />
