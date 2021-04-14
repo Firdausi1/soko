@@ -10,7 +10,7 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	margin-top: 5%;
+	height: 100%;
 }
 
 .emptyBag h3{
@@ -50,5 +50,12 @@
 	display: flex;
 	height: 100%;
 	width: 100%;
+}
+
+@media screen and (max-width: 425px){
+	.emptyBag__button{
+		height: fit-content;
+		padding: 2px;
+	}
 }
 

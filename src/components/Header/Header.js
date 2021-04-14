@@ -30,10 +30,12 @@ export default function Header() {
 							<p className="content__paragraph">Bag</p>
 						</div>
 					</Link>
+					<Link to="/accounts">
 					<div className="content">
 						<PersonIcon />
 						<p>Account</p>
 					</div>
+					</Link>
 				</div>
 			</div>
 		</div>

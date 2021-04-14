@@ -1,8 +1,9 @@
 .rightSidebar{
-    width: 20%;
+    width: 100%;
     border-left: 1px solid #d0d0d0;
     padding-left: 30px;
     padding-top: 25px;
+    min-height: 80vh;
 }
 
 .right__checkout{

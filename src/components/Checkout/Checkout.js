@@ -42,6 +42,7 @@ export default function Checkout({ quantity }) {
 					<h3>Total</h3>
 					<p>UGX</p>
 				</div>
+				<div className="checkout__btn"><button className="secondary__button checkout__btn">CheckOut</button></div>
 			</div>
 		</div>
 	);

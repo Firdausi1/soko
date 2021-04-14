@@ -23,7 +23,7 @@ export default function ProductDetail({ data }) {
 		setProduct(data[productId]);
 	}, [data, productId]);
 	return (
-		<div className="productDetail">
+		<div className="productDetail"> 
 			<img
 				src="https://www.hopkinsmedicine.org/-/media/project/jhm/icons/covidpropermaskwearing/proper-mask-wearing.ashx?h=750&la=en&w=750&hash=88121F58B84FDC141CE6BF2EDFCDCC033BB2E082"
 				alt="mask"
